@@ -4,7 +4,7 @@ import re
 def replace(input):
 	""" Replace each zawgyi code point with equivlant code point in Unicode.
 	Conversions will be one on one. """
-	output = output.replace(u'\u106A', u'\1009')
+	output = output.replace(u'\u106A', u'\u1009')
 
 def decompose(input):
 	""" Decompose combined characters to sequence of characters. """
